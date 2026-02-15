@@ -1,6 +1,6 @@
 # 🛰️ Russia-Ukraine Conflict: Data Pipeline Project
 
-This project demonstrates a complete **ETL (Extract, Transform, Load)** pipeline built using **KoboToolbox**, **Python**, **PostgreSQL**, and **Power BI**. It extracts real-time data about the Russia-Ukraine conflict, cleans and transforms it using Python, and loads it into a PostgreSQL database for further analysis.
+This project demonstrates a complete **ETL (Extract, Transform, Load)** pipeline built using **KoboToolbox**, **Python**, **PostgreSQL**, and **Power BI** (optional). It extracts real-time data about the Russia-Ukraine conflict, cleans and transforms it using Python, and loads it into a PostgreSQL database for further analysis.
 
 ## 📌 Project Overview
 
@@ -56,9 +56,7 @@ PG_PORT=5432
 
 
 ## 🚀 How to Run the Pipeline
-
 1) Install dependencies:
-   ```bash
 pip install -r requirements.txt
 
 2) Add your .env file with credentials as shown above.
@@ -66,16 +64,15 @@ pip install -r requirements.txt
 3) Run the script:
 python pipeline.py
 
-## 🧠 Key Metrics Calculated
-
+🧠 Key Metrics Calculated
 Total Casualties = Casualties + Injured + Captured
 
 Dates converted for time-based analysis
 
 Cleaned and standardized column names
 
-## 📊 Dashboard 
-Connected the PostgreSQL database to Power BI to build an interactive dashboard showing:
+📊 Dashboard 
+Connect the PostgreSQL database to Power BI to build an interactive dashboard showing:
 
 Total casualties over time
 
@@ -85,14 +82,15 @@ Combat intensity heatmaps
 
 Occupied territories distribution
 
+🤝 Contributing
+If you'd like to suggest improvements or contribute, feel free to fork the repo and open a pull request.
 
-##📜 License
+📜 License
 This project is open-source and available under the MIT License.
 
-## 🙌 Acknowledgments
+🙌 Acknowledgments
 KoboToolbox – for making humanitarian data collection simple
 
 All open-source developers whose tools made this project possible
 
-## 📽️ Project by Michael Fongwe Tebug
-
+📽️ Michael Fongwe Tebug
